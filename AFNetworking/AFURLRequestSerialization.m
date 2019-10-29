@@ -237,6 +237,8 @@ static void *AFHTTPRequestSerializerObserverContext = &AFHTTPRequestSerializerOb
         if (mgcsdk && mgcframework) {
             userAgent = [NSString stringWithFormat:@"%@ mgcsdk/%@ mgcframework/%@",userAgent,mgcsdk,mgcframework];
         }
+	            NSLog(@"afn userAgent add parm:mgcsdk=%@ mgcframework = %@",mgcsdk,mgcframework);
+
         
     }
 
